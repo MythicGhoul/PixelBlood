@@ -1,0 +1,29 @@
+name: PixelBlood
+author: MythicGhoul
+version: 2.3
+main: me.Ghoul.PixelBlood.Main
+api-version: 1.18
+description: Adds Blood Effects To Your World
+commands:
+    pb:
+        description: Base Command For Plugin
+        default: op
+permissions:
+    pb.reload:
+        description: Reloads Configuration
+        default: op
+    pb.toggle:
+        description: Turns Blood On
+        default: op
+    pb.gui:
+        description: Turns Blood On
+        default: op
+    pb.heal:
+        description: Heals You On Interact
+        default: true
+    pb.sign.break:
+        description: Give The Ability To Break Signs
+        default: op
+    pb.sign.create:
+        description: Give The Ability To Create Signs
+        default: op
